@@ -1,28 +1,4 @@
-body{
-  /* background-color: black; */
-  overflow: scroll;
-}
-div#demo{
-  color: black;
-  margin: auto;
-  text-align: center;
-}
-h6.demo{
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  color: blue;
-}
-
-
-
-
-
-
-
-
-
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -59,4 +35,4 @@ h6.demo{
   to {
     transform: rotate(360deg);
   }
-} */
+}
