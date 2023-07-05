@@ -1,12 +1,28 @@
-import React, { PureComponent } from "react";
-import createBrowserRouter from "react-router-dom";
+import React from "react";
 import Home from "../pages/Home";
+import { createBrowserRouter } from "react-router-dom";
+import Layout from "../../components2/header/Layout";
+import Details from "../../components2/pages/Details";
 
-const router = createBrowserRouter([
+const PrivateRouting = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-    loader: rootLoader,
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/details",
+        element: <Details />,
+      },
+      {
+        path: "/details/:id",
+        element: <Details />,
+      },
+    ],
   },
 ]);
-export default router;
+
+export default PrivateRouting;

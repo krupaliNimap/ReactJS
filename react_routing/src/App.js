@@ -1,9 +1,10 @@
 import React from "react";
 import PrivateRouting from "./components2/shared/PrivateRouting";
+import { RouterProvider } from "react-router-dom";
 function App() {
   return (
     <>
-      <PrivateRouting />
+      <RouterProvider router={PrivateRouting} />
     </>
   );
 }

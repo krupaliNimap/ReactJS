@@ -1,0 +1,11 @@
+#demoDetails{
+    text-align: center;
+    color:blue;
+    background-color: red;
+}
+.card{
+    height: 200px;
+    background-color: #000;
+    color:white;
+    text-align: center;
+}

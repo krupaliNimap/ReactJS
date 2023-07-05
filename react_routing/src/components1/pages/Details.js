@@ -24,6 +24,7 @@ import UserList from "../shared/UserData";
 
 function Details(props) {
   const params = useParams();
+  console.log(params);
   const filteredUsers = UserList.filter((x) => x.id === parseInt(params.id));
   if (params.id) {
     return (
