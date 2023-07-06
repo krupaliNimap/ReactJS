@@ -14,12 +14,14 @@ function Layout() {
             width="70rem"
           />
         </div>
-        <Link className="demo" to="/">
-          Home
-        </Link>
-        <Link className="demo" to="/details">
-          Details
-        </Link>
+        <div>
+          <Link className="demo2" to="/">
+            Home
+          </Link>
+          <Link className="demo2" to="/details">
+            Details
+          </Link>
+        </div>
       </div>
       <Outlet />
     </div>

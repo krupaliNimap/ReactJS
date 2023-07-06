@@ -1,10 +1,13 @@
 import React from "react";
 import PrivateRouting from "./components2/shared/PrivateRouting";
 import { RouterProvider } from "react-router-dom";
+import "./App.css";
 function App() {
   return (
     <>
-      <RouterProvider router={PrivateRouting} />
+      <div className="App">
+        <RouterProvider router={PrivateRouting} />
+      </div>
     </>
   );
 }

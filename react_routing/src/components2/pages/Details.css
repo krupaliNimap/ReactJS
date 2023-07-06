@@ -3,8 +3,13 @@
     color:blue;
     background-color: red;
 }
-.card{
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container>div{
     height: 200px;
+    width:400px;
     background-color: #000;
     color:white;
     text-align: center;

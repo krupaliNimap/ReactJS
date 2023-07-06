@@ -1,19 +1,16 @@
-link.hover{
-    color: aliceblue;
-}
 .demo1{
     text-align: left;
-    position: absolute;
     left:1rem;
     top:1rem
     }
 .nav{
-    text-align: right;
     background: blue;
     padding:2rem;
-    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.demo{
+.demo2{
     border: 1rem;
     padding: 0 1rem 0 1rem;
     color:black;
